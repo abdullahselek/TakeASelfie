@@ -1,0 +1,6 @@
+framework module Pods_TakeASelfieTests {
+  umbrella header "Pods-TakeASelfieTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

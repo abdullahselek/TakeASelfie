@@ -1,0 +1,6 @@
+framework module TakeASelfie {
+  umbrella header "TakeASelfie-umbrella.h"
+
+  export *
+  module * { export * }
+}
