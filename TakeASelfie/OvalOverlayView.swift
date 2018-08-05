@@ -28,13 +28,24 @@ internal class OvalOverlayView: UIView {
     }
 
     override func draw(_ rect: CGRect) {
-        let ellipsePath = UIBezierPath(ovalIn: overlayFrame)
-        let shapeLayer = CAShapeLayer()
-        shapeLayer.path = ellipsePath.cgPath
-        shapeLayer.fillColor = UIColor.clear.cgColor
-        shapeLayer.strokeColor = UIColor.green.cgColor
-        shapeLayer.lineWidth = 5.0
-        self.layer.addSublayer(shapeLayer)
+        let overlayPath = UIBezierPath(rect: bounds)
+        let ovalPath = UIBezierPath(ovalIn: overlayFrame)
+        overlayPath.append(ovalPath)
+        overlayPath.usesEvenOddFillRule = true
+        // draw oval layer
+        let ovalLayer = CAShapeLayer()
+        ovalLayer.path = ovalPath.cgPath
+        ovalLayer.fillColor = UIColor.clear.cgColor
+        ovalLayer.strokeColor = UIColor.green.cgColor
+        ovalLayer.lineWidth = 5.0
+        // draw layer that fills the view
+        let fillLayer = CAShapeLayer()
+        fillLayer.path = overlayPath.cgPath
+        fillLayer.fillRule = kCAFillRuleEvenOdd
+        fillLayer.fillColor = UIColor.black.withAlphaComponent(0.5).cgColor
+        // add layers
+        layer.addSublayer(fillLayer)
+        layer.addSublayer(ovalLayer)
     }
 
 }
