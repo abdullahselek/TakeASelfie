@@ -55,8 +55,6 @@ open class SelfieViewController: UIViewController {
                 }
                 captureSession.addInput(captureInput)
                 let captureOutput = AVCaptureVideoDataOutput()
-                captureOutput.videoSettings = [kCVPixelBufferPixelFormatTypeKey as String:
-                    NSNumber(value: kCVPixelFormatType_420YpCbCr8BiPlanarFullRange)]
                 captureOutput.alwaysDiscardsLateVideoFrames = true
                 let dispatchQueue = DispatchQueue(label: "com.abdullahselek.TakeASelfieCameraSessionQueue", attributes: [])
                 captureOutput.setSampleBufferDelegate(self, queue: dispatchQueue)
