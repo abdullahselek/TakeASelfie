@@ -1,5 +1,5 @@
 PODS:
-  - TakeASelfie (0.1.1)
+  - TakeASelfie (0.1.2)
 
 DEPENDENCIES:
   - TakeASelfie (from `.`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  TakeASelfie: 5f87e243cc806bf5b2ad0859e2c86e1e259a509c
+  TakeASelfie: 304f6222d917c68c3392aa8dec689b2fcdb4ea36
 
 PODFILE CHECKSUM: 22880422297f195ea51ae75617a580fc1123296d
 
