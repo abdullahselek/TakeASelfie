@@ -17,7 +17,7 @@ internal class OvalOverlayView: UIView {
         super.init(frame: screenBounds)
         backgroundColor = UIColor.clear
         accessibilityIdentifier = "takeASelfieOvalOverlayView"
-        overlayFrame = CGRect(x: (screenBounds.width - 300.0) / 2 ,
+        overlayFrame = CGRect(x: (screenBounds.width - 300.0) / 2,
                               y: (screenBounds.height - 400.0) / 2,
                               width: 300.0,
                               height: 400.0)
