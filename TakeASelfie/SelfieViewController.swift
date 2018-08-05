@@ -31,7 +31,7 @@ open class SelfieViewController: UIViewController {
     }
 
     required public init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        fatalError("TakeASelfie: init(coder:) has not been implemented")
     }
 
     override open func viewDidLoad() {
@@ -73,10 +73,10 @@ open class SelfieViewController: UIViewController {
 
                 view.addSubview(ovalOverlayView)
             } catch {
-                print("Cannot construct capture device input")
+                print("TakeASelfie: Cannot construct capture device input")
             }
         } else {
-            print("Cannot get capture device")
+            print("TakeASelfie: Cannot get capture device")
             let okAlertAction = UIAlertAction(title: "Ok", style: .default) { _ in
                 self.dismiss(animated: true, completion: nil)
             }
@@ -150,7 +150,7 @@ extension SelfieViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
         let faceFeature = features[0]
         let bounds = faceFeature.bounds(for: image, inView: ovalOverlayView.overlayFrame.size)
         if ovalOverlayView.overlayFrame.contains(bounds) {
-            print("Face inside the overlay!")
+            print("TakeASelfie: Face inside the overlay!")
             captureSession.stopRunning()
             UIImageWriteToSavedPhotosAlbum(faceUIImage,
                                            self,
