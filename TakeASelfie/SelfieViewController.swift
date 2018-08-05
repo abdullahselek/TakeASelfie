@@ -173,33 +173,42 @@ extension SelfieViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
         }
     }
 
-    public func captureOutput(_ output: AVCaptureOutput,
-                              didOutput sampleBuffer: CMSampleBuffer,
-                              from connection: AVCaptureConnection) {
+    fileprivate func createFaceImages(sampleBuffer: CMSampleBuffer) -> (CIImage?, UIImage?) {
         guard let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {
-            return
+            return (nil, nil)
         }
-        let ciImage = CIImage(cvPixelBuffer: pixelBuffer)
+        let faceCIImage = CIImage(cvPixelBuffer: pixelBuffer)
         let context = CIContext()
         // swiftlint:disable line_length
-        guard let faceImage = context.createCGImage(ciImage, from: CGRect(x: 0,
-                                                                          y: 0,
-                                                                          width: CVPixelBufferGetWidth(pixelBuffer),
-                                                                          height: CVPixelBufferGetHeight(pixelBuffer))) else {
-                                                                            return
+        guard let faceImage = context.createCGImage(faceCIImage, from: CGRect(x: 0,
+                                                                              y: 0,
+                                                                              width: CVPixelBufferGetWidth(pixelBuffer),
+                                                                              height: CVPixelBufferGetHeight(pixelBuffer))) else {
+                                                                                return (nil, nil)
         }
         let faceUIImage = UIImage(cgImage: faceImage,
                                   scale: 0.0,
                                   orientation: UIImageOrientation.right)
+        return (faceCIImage, faceUIImage)
+    }
+
+    public func captureOutput(_ output: AVCaptureOutput,
+                              didOutput sampleBuffer: CMSampleBuffer,
+                              from connection: AVCaptureConnection) {
+        guard let (faceCIImage, faceUIImage) = createFaceImages(sampleBuffer: sampleBuffer) as? (CIImage, UIImage) else {
+            print("TakeASelfie: creating face images returns nil")
+            return
+        }
         let options = [CIDetectorImageOrientation: orientation(orientation: UIDevice.current.orientation),
                        CIDetectorSmile: true,
                        CIDetectorEyeBlink: true] as [String: Any]
-        guard let features = faceDetector?.features(in: ciImage, options: options) else {
+        guard let features = faceDetector?.features(in: faceCIImage, options: options) else {
+            print("TakeASelfie: face features nil")
             return
         }
         DispatchQueue.main.async {
             self.handleFaceFeatures(features: features,
-                                    faceImage: ciImage,
+                                    faceImage: faceCIImage,
                                     faceUIImage: faceUIImage)
         }
     }
