@@ -1,6 +1,6 @@
 {
   "name": "TakeASelfie",
-  "version": "0.1",
+  "version": "0.1.1",
   "summary": "An iOS framework that uses the front camera, detects your face and takes a selfie.",
   "homepage": "https://github.com/abdullahselek/TakeASelfie",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/abdullahselek/TakeASelfie.git",
-    "tag": "0.1"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "11.0"

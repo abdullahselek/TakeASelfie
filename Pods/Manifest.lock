@@ -1,27 +1,16 @@
 PODS:
-  - Nimble (7.1.2)
-  - Quick (1.3.0)
-  - TakeASelfie (0.1)
+  - TakeASelfie (0.1.1)
 
 DEPENDENCIES:
-  - Nimble
-  - Quick
   - TakeASelfie (from `.`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Nimble
-    - Quick
 
 EXTERNAL SOURCES:
   TakeASelfie:
     :path: "."
 
 SPEC CHECKSUMS:
-  Nimble: 3835ba9f459daa6b347f8a8e110aaae8ca1920a8
-  Quick: 03278013f71aa05fe9ecabc94fbcc6835f1ee76f
-  TakeASelfie: 6ec016922228773c7944fc075d52eb26a718c3b6
+  TakeASelfie: 5f87e243cc806bf5b2ad0859e2c86e1e259a509c
 
-PODFILE CHECKSUM: 7252939336a451f89eb227b798e94fbaab1225f7
+PODFILE CHECKSUM: 22880422297f195ea51ae75617a580fc1123296d
 
 COCOAPODS: 1.5.3

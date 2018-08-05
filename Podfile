@@ -9,18 +9,13 @@ workspace 'TakeASelfie.xcworkspace'
 project 'TakeASelfie.xcodeproj'
 
 target 'TakeASelfie' do
-
   	target 'TakeASelfieTests' do
-    	inherit! :search_paths
-    	
-    	pod 'Quick'
-    	pod 'Nimble'
-  	end
-
+    	 inherit! :search_paths
+    end
 end
 
 target 'SampleApp' do
 	project 'SampleApp/SampleApp.xcodeproj'
-    inherit! :search_paths
-    product_pods
+	inherit! :search_paths
+	product_pods
 end
