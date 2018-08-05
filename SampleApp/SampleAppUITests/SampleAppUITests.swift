@@ -8,29 +8,33 @@
 
 import XCTest
 
+@testable import SampleApp
+
 class SampleAppUITests: XCTestCase {
-        
+
+    var app: XCUIApplication!
+
     override func setUp() {
         super.setUp()
-        
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-        
-        // In UI tests it is usually best to stop immediately when a failure occurs.
-        continueAfterFailure = false
-        // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-        XCUIApplication().launch()
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        app = XCUIApplication()
+        app.launch()
     }
-    
+
+    func testOpenSelfieViewController() {
+        let launchSdkButton = app.buttons["launchSdkButton"]
+        XCTAssertNotNil(launchSdkButton)
+        launchSdkButton.tap()
+        addUIInterruptionMonitor(withDescription: "“SampleApp” Would Like to Access the Camera") { alert -> Bool in
+            alert.buttons["OK"].tap()
+            return true
+        }
+        let overlayView = app.windows.element(matching: .any, identifier: "takeASelfieOvalOverlayView")
+        XCTAssertNotNil(overlayView)
+    }
+
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        app = nil
         super.tearDown()
     }
-    
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
+
 }

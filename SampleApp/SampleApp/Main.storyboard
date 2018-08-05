@@ -18,12 +18,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7c-DV-4KR">
-                                <rect key="frame" x="95" y="318" width="184" height="30"/>
+                                <rect key="frame" x="95.5" y="318.5" width="184" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="IZl-uU-Emn"/>
                                     <constraint firstAttribute="width" constant="184" id="Wqd-VI-0yv"/>
                                 </constraints>
                                 <state key="normal" title="Launch SDK"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="launchSdkButton"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="launchSDKButtonTapped:" destination="qNG-u2-ZsX" eventType="touchUpInside" id="q6E-Kh-yVZ"/>
                                 </connections>
@@ -50,19 +53,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gAo-63-u0L">
-                                <rect key="frame" x="0.0" y="118" width="375" height="430"/>
+                                <rect key="frame" x="0.0" y="118.5" width="375" height="430"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="430" id="0Ql-Rf-Hgv"/>
                                     <constraint firstAttribute="width" constant="375" id="cYm-W4-XJ7"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="previewImageView"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8I-j7-qvN">
-                                <rect key="frame" x="167" y="50" width="40" height="30"/>
+                                <rect key="frame" x="167.5" y="50" width="40" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Qnq-3Y-2VX"/>
                                     <constraint firstAttribute="height" constant="30" id="YMK-5H-koc"/>
                                 </constraints>
                                 <state key="normal" title="BACK"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="backButton"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="backButtonTapped:" destination="jRA-Rq-k8k" eventType="touchUpInside" id="CWv-Bf-DaB"/>
                                 </connections>
