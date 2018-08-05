@@ -10,6 +10,7 @@
 		3D2640FC7E3946084D75D2B7 /* Pods_TakeASelfieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF693BE5B26DC703785DC8BB /* Pods_TakeASelfieTests.framework */; };
 		A40AA5812115F2230079E813 /* CIFaceFeature+UIImageOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = A40AA57F2115F2230079E813 /* CIFaceFeature+UIImageOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A40AA5822115F2230079E813 /* CIFaceFeature+UIImageOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AA5802115F2230079E813 /* CIFaceFeature+UIImageOrientation.m */; };
+		A418425C2117415F0078A4BF /* SelfieHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418425B2117415F0078A4BF /* SelfieHelper.swift */; };
 		A4B008602114CE96004EBBE4 /* TakeASelfie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B008562114CE96004EBBE4 /* TakeASelfie.framework */; };
 		A4B008672114CE96004EBBE4 /* TakeASelfie.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B008592114CE96004EBBE4 /* TakeASelfie.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4B008722114E342004EBBE4 /* SelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B008702114E342004EBBE4 /* SelfieViewController.swift */; };
@@ -34,6 +35,7 @@
 		53392AE56908129E5EDA7EC7 /* Pods-TakeASelfie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeASelfie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakeASelfie/Pods-TakeASelfie.debug.xcconfig"; sourceTree = "<group>"; };
 		A40AA57F2115F2230079E813 /* CIFaceFeature+UIImageOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFaceFeature+UIImageOrientation.h"; sourceTree = "<group>"; };
 		A40AA5802115F2230079E813 /* CIFaceFeature+UIImageOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFaceFeature+UIImageOrientation.m"; sourceTree = "<group>"; };
+		A418425B2117415F0078A4BF /* SelfieHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieHelper.swift; sourceTree = "<group>"; };
 		A4B008562114CE96004EBBE4 /* TakeASelfie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TakeASelfie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B008592114CE96004EBBE4 /* TakeASelfie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakeASelfie.h; sourceTree = "<group>"; };
 		A4B0085A2114CE96004EBBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				A4B008702114E342004EBBE4 /* SelfieViewController.swift */,
 				A4B008742114E7E3004EBBE4 /* UIViewController+Alert.swift */,
 				A4B8F44D2115BC2500FE57C4 /* OvalOverlayView.swift */,
+				A418425B2117415F0078A4BF /* SelfieHelper.swift */,
 				A40AA57F2115F2230079E813 /* CIFaceFeature+UIImageOrientation.h */,
 				A40AA5802115F2230079E813 /* CIFaceFeature+UIImageOrientation.m */,
 				A4B0085A2114CE96004EBBE4 /* Info.plist */,
@@ -301,6 +304,7 @@
 				A4B008722114E342004EBBE4 /* SelfieViewController.swift in Sources */,
 				A4B8F44E2115BC2500FE57C4 /* OvalOverlayView.swift in Sources */,
 				A4B008752114E7E3004EBBE4 /* UIViewController+Alert.swift in Sources */,
+				A418425C2117415F0078A4BF /* SelfieHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

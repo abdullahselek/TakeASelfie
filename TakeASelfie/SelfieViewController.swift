@@ -158,48 +158,15 @@ extension SelfieViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
         }
     }
 
-    fileprivate func orientation(orientation: UIDeviceOrientation) -> Int {
-        switch orientation {
-        case .portraitUpsideDown:
-            return 8
-        case .landscapeLeft:
-            return 3
-        case .landscapeRight:
-            return 1
-        case .portrait:
-            return 6
-        default:
-            return 6
-        }
-    }
-
-    fileprivate func createFaceImages(sampleBuffer: CMSampleBuffer) -> (CIImage?, UIImage?) {
-        guard let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {
-            return (nil, nil)
-        }
-        let faceCIImage = CIImage(cvPixelBuffer: pixelBuffer)
-        let context = CIContext()
-        // swiftlint:disable line_length
-        guard let faceImage = context.createCGImage(faceCIImage, from: CGRect(x: 0,
-                                                                              y: 0,
-                                                                              width: CVPixelBufferGetWidth(pixelBuffer),
-                                                                              height: CVPixelBufferGetHeight(pixelBuffer))) else {
-                                                                                return (nil, nil)
-        }
-        let faceUIImage = UIImage(cgImage: faceImage,
-                                  scale: 0.0,
-                                  orientation: UIImageOrientation.right)
-        return (faceCIImage, faceUIImage)
-    }
-
     public func captureOutput(_ output: AVCaptureOutput,
                               didOutput sampleBuffer: CMSampleBuffer,
                               from connection: AVCaptureConnection) {
-        guard let (faceCIImage, faceUIImage) = createFaceImages(sampleBuffer: sampleBuffer) as? (CIImage, UIImage) else {
+        // swiftlint:disable line_length
+        guard let (faceCIImage, faceUIImage) = SelfieHelper.createFaceImages(sampleBuffer: sampleBuffer) as? (CIImage, UIImage) else {
             print("TakeASelfie: creating face images returns nil")
             return
         }
-        let options = [CIDetectorImageOrientation: orientation(orientation: UIDevice.current.orientation),
+        let options = [CIDetectorImageOrientation: SelfieHelper.orientation(orientation: UIDevice.current.orientation),
                        CIDetectorSmile: true,
                        CIDetectorEyeBlink: true] as [String: Any]
         guard let features = faceDetector?.features(in: faceCIImage, options: options) else {
