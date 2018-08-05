@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name                  = 'TakeASelfie'
-    s.version               = '0.1'
+    s.version               = '0.1.1'
     s.summary               = 'An iOS framework that uses the front camera, detects your face and takes a selfie.'
     s.homepage              = 'https://github.com/abdullahselek/TakeASelfie'
     s.license               = {
