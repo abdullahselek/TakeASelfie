@@ -80,4 +80,6 @@ let selfieViewController = SelfieViewController(withDelegate: self)
 present(selfieViewController, animated: true, completion: nil)
 ```
 
+## Notes
 
+**TakeASelfie** uses [swiftlint](https://github.com/realm/SwiftLint) as a linter to check the coding styles and to use a regular style. A script running whnen you build the framework target which invokes the `swiftlint` with a configuration file located on the root folder.
