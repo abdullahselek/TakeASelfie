@@ -21,7 +21,7 @@ open class SelfieViewController: UIViewController {
     private var videoPreviewLayer: AVCaptureVideoPreviewLayer!
     private let faceDetector = CIDetector(ofType: CIDetectorTypeFace,
                                           context: nil,
-                                          options: [CIDetectorAccuracy: CIDetectorAccuracyLow])
+                                          options: [CIDetectorAccuracy: CIDetectorAccuracyHigh])
     private let ovalOverlayView = OvalOverlayView()
     open weak var delegate: SelfieViewDelegate?
 
