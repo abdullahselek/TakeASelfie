@@ -23,13 +23,13 @@ open class SelfieViewController: UIViewController {
                                           context: nil,
                                           options: [CIDetectorAccuracy: CIDetectorAccuracyLow])
     private let ovalOverlayView = OvalOverlayView()
-    open var delegate: SelfieViewDelegate?
+    open weak var delegate: SelfieViewDelegate?
 
     public init(withDelegate delegate: SelfieViewDelegate) {
         super.init(nibName: nil, bundle: nil)
         self.delegate = delegate
     }
-    
+
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -43,7 +43,7 @@ open class SelfieViewController: UIViewController {
 
     fileprivate func addCaptureDeviceInput() {
         let deviceDiscoverySession = AVCaptureDevice.DiscoverySession(deviceTypes: [.builtInWideAngleCamera,
-                                                                                    .builtInTelephotoCamera,],
+                                                                                    .builtInTelephotoCamera],
                                                                       mediaType: .video,
                                                                       position: .front)
         if let captureDevice = deviceDiscoverySession.devices.first {
@@ -55,7 +55,8 @@ open class SelfieViewController: UIViewController {
                 }
                 captureSession.addInput(captureInput)
                 let captureOutput = AVCaptureVideoDataOutput()
-                captureOutput.videoSettings = [kCVPixelBufferPixelFormatTypeKey as String: NSNumber(value: kCVPixelFormatType_420YpCbCr8BiPlanarFullRange)]
+                captureOutput.videoSettings = [kCVPixelBufferPixelFormatTypeKey as String:
+                    NSNumber(value: kCVPixelFormatType_420YpCbCr8BiPlanarFullRange)]
                 captureOutput.alwaysDiscardsLateVideoFrames = true
                 let dispatchQueue = DispatchQueue(label: "com.abdullahselek.TakeASelfieCameraSessionQueue", attributes: [])
                 captureOutput.setSampleBufferDelegate(self, queue: dispatchQueue)
@@ -66,12 +67,12 @@ open class SelfieViewController: UIViewController {
                 captureSession.sessionPreset = .photo
                 captureSession.commitConfiguration()
                 captureSession.startRunning()
-                
+
                 videoPreviewLayer = AVCaptureVideoPreviewLayer(session: self.captureSession)
                 videoPreviewLayer.videoGravity = .resizeAspectFill
                 videoPreviewLayer.frame = self.view.layer.bounds
                 view.layer.addSublayer(self.videoPreviewLayer)
-                
+
                 view.addSubview(ovalOverlayView)
             } catch {
                 print("Cannot construct capture device input")
@@ -86,7 +87,7 @@ open class SelfieViewController: UIViewController {
                                 actions: [okAlertAction])
         }
     }
-    
+
     fileprivate func setupCapture(withAuthorizationStatus status: AVAuthorizationStatus) {
         switch status {
         case .notDetermined:
@@ -96,7 +97,7 @@ open class SelfieViewController: UIViewController {
         case .restricted, .denied:
             let okAlertAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
             showAlertController(title: "Can not access camera",
-                                message: "Please go to settings and enable camera access permission to be able to take selfies",
+                                message: "Please go to settings and enable camera access permission",
                                 actions: [okAlertAction])
         case .authorized:
             DispatchQueue.main.async {
@@ -182,6 +183,7 @@ extension SelfieViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
         }
         let ciImage = CIImage(cvPixelBuffer: pixelBuffer)
         let context = CIContext()
+        // swiftlint:disable line_length
         guard let faceImage = context.createCGImage(ciImage, from: CGRect(x: 0,
                                                                           y: 0,
                                                                           width: CVPixelBufferGetWidth(pixelBuffer),
