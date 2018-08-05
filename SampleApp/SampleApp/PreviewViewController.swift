@@ -25,23 +25,53 @@ class PreviewViewController: UIViewController {
         }
     }
 
+    func getPhotoLibraryAuthorizationStatus(status: PHAuthorizationStatus, completionBlock: @escaping ((Bool) -> Void)) {
+        switch status {
+        case .authorized:
+            completionBlock(true)
+        case .denied:
+            completionBlock(false)
+        case .notDetermined:
+            PHPhotoLibrary.requestAuthorization { status in
+                if status == .authorized {
+                    completionBlock(true)
+                } else {
+                    print("PhotoLibrary request authorization failed!")
+                    completionBlock(false)
+                }
+            }
+        case .restricted:
+            completionBlock(false)
+        }
+    }
+
     func fetchLastPhoto(resizeTo size: CGSize, imageCallback: @escaping ImageCallback) {
-        let fetchOptions = PHFetchOptions()
-        fetchOptions.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: false)]
-        fetchOptions.fetchLimit = 1
-        let fetchResult = PHAsset.fetchAssets(with: .image, options: fetchOptions)
-        if let asset = fetchResult.firstObject {
-            let manager = PHImageManager.default()
-//            let targetSize = CGSize(width: asset.pixelWidth, height: asset.pixelHeight)
-            manager.requestImage(for: asset,
-                                 targetSize: size,
-                                 contentMode: .aspectFit,
-                                 options: nil,
-                                 resultHandler: { image, info in
-                                    imageCallback(image)
-            })
-        } else {
-            imageCallback(nil)
+        getPhotoLibraryAuthorizationStatus(status: PHPhotoLibrary.authorizationStatus()) { granted in
+            if granted {
+                let fetchOptions = PHFetchOptions()
+                fetchOptions.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: false)]
+                fetchOptions.fetchLimit = 1
+                let fetchResult = PHAsset.fetchAssets(with: .image, options: fetchOptions)
+                if let asset = fetchResult.firstObject {
+                    let manager = PHImageManager.default()
+                    // let targetSize = CGSize(width: asset.pixelWidth, height: asset.pixelHeight)
+                    manager.requestImage(for: asset,
+                                         targetSize: size,
+                                         contentMode: .aspectFit,
+                                         options: nil,
+                                         resultHandler: { image, info in
+                                            DispatchQueue.main.async {
+                                                imageCallback(image)
+                                            }
+                    })
+                } else {
+                    DispatchQueue.main.async {
+                        imageCallback(nil)
+                    }
+                }
+            } else {
+                print("No access to photo library!")
+            }
         }
     }
 
