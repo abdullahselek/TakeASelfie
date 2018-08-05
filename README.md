@@ -5,13 +5,19 @@
 
 # TakeASelfie
 
-An iOS framework that uses the front camera, detects your face and takes a selfie. This api opens the front camera and draws an green oval overlay on the center of the screen. When a single face has been included in the overlay, selfie automatically will be taken and saved in photo album. 
+An iOS framework that uses the front camera, detects your face and takes a selfie. This api opens the front camera and draws an green oval overlay on the center of the screen. When a single face has been included in the overlay, selfie automatically will be taken and saved in photo album.
+
+## Screenshot
+
+<p align="center">
+  <img src="https://github.com/abdullahselek/TakeASelfie/blob/master/Resources/selfie_screen.png"/>
+</p>
 
 ## Requirements
 
 | TakeASelfie Version | Minimum iOS Target  | Swift Version |
 |:-------------------:|:-------------------:|:-------------------:|
-| 0.1.1 | 11.0| 4.1 |
+| 0.1.2 | 11.0| 4.1 |
 
 
 Don't forget to add permissions to your application.
@@ -34,7 +40,7 @@ platform :ios, '11.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-	pod 'TakeASelfie', '~>0.1.1'
+	pod 'TakeASelfie', '~>0.1.2'
 end
 ```
 
@@ -52,7 +58,7 @@ brew install carthage
 To integrate TakeASelfie into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "abdullahselek/TakeASelfie" ~> 0.1.1
+github "abdullahselek/TakeASelfie" ~> 0.1.2
 ```
 
 ## Usage
