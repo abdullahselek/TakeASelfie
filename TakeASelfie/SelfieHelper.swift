@@ -40,7 +40,7 @@ internal class SelfieHelper {
         }
         let faceUIImage = UIImage(cgImage: faceImage,
                                   scale: 0.0,
-                                  orientation: UIImageOrientation.right)
+                                  orientation: UIImage.Orientation.right)
         return (faceCIImage, faceUIImage)
     }
 

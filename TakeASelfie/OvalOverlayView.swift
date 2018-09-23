@@ -41,7 +41,7 @@ internal class OvalOverlayView: UIView {
         // draw layer that fills the view
         let fillLayer = CAShapeLayer()
         fillLayer.path = overlayPath.cgPath
-        fillLayer.fillRule = kCAFillRuleEvenOdd
+        fillLayer.fillRule = CAShapeLayerFillRule.evenOdd
         fillLayer.fillColor = UIColor.black.withAlphaComponent(0.5).cgColor
         // add layers
         layer.addSublayer(fillLayer)
