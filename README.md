@@ -17,6 +17,7 @@ An iOS framework that uses the front camera, detects your face and takes a selfi
 
 | TakeASelfie Version | Minimum iOS Target  | Swift Version |
 |:-------------------:|:-------------------:|:-------------------:|
+| 0.1.3 | 11.0| 4.2 |
 | 0.1.2 | 11.0| 4.1 |
 
 
@@ -40,7 +41,7 @@ platform :ios, '11.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-	pod 'TakeASelfie', '~>0.1.2'
+	pod 'TakeASelfie', '~>0.1.3'
 end
 ```
 
@@ -58,7 +59,7 @@ brew install carthage
 To integrate TakeASelfie into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "abdullahselek/TakeASelfie" ~> 0.1.2
+github "abdullahselek/TakeASelfie" ~> 0.1.3
 ```
 
 ## Usage
