@@ -198,3 +198,5 @@ extension SelfieViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
     }
 
 }
+
+extension SelfieViewController: AlertControllerProtocol { }

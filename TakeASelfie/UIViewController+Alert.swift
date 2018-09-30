@@ -24,7 +24,15 @@
 
 import UIKit
 
-internal extension UIViewController {
+internal protocol AlertControllerProtocol {
+
+    func showAlertController(title: String?,
+                             message: String?,
+                             actions: [UIAlertAction])
+
+}
+
+internal extension AlertControllerProtocol where Self: UIViewController {
 
     internal func showAlertController(title: String?,
                                       message: String?,
