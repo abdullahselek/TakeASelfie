@@ -16,6 +16,7 @@
 		A4B008722114E342004EBBE4 /* SelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B008702114E342004EBBE4 /* SelfieViewController.swift */; };
 		A4B008752114E7E3004EBBE4 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B008742114E7E3004EBBE4 /* UIViewController+Alert.swift */; };
 		A4B8F44E2115BC2500FE57C4 /* OvalOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B8F44D2115BC2500FE57C4 /* OvalOverlayView.swift */; };
+		A4F5566321614B6A0009496F /* SelfieViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F5566221614B6A0009496F /* SelfieViewControllerTests.swift */; };
 		D800B348B68F8A20C0D68BEA /* Pods_TakeASelfie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C622350B9476F81F3A917D11 /* Pods_TakeASelfie.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		A4B008702114E342004EBBE4 /* SelfieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieViewController.swift; sourceTree = "<group>"; };
 		A4B008742114E7E3004EBBE4 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		A4B8F44D2115BC2500FE57C4 /* OvalOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvalOverlayView.swift; sourceTree = "<group>"; };
+		A4F5566221614B6A0009496F /* SelfieViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieViewControllerTests.swift; sourceTree = "<group>"; };
 		A8681E4B7D422472DFD58C91 /* Pods-TakeASelfie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeASelfie.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakeASelfie/Pods-TakeASelfie.release.xcconfig"; sourceTree = "<group>"; };
 		AF693BE5B26DC703785DC8BB /* Pods_TakeASelfieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeASelfieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C622350B9476F81F3A917D11 /* Pods_TakeASelfie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeASelfie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				A4B008662114CE96004EBBE4 /* Info.plist */,
+				A4F5566221614B6A0009496F /* SelfieViewControllerTests.swift */,
 			);
 			path = TakeASelfieTests;
 			sourceTree = "<group>";
@@ -203,7 +206,7 @@
 					};
 					A4B0085E2114CE96004EBBE4 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 0940;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -312,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F5566321614B6A0009496F /* SelfieViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

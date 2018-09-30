@@ -130,6 +130,7 @@ open class SelfieViewController: UIViewController {
         captureSession = nil
         videoPreviewLayer = nil
     }
+
 }
 
 extension SelfieViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
