@@ -8,7 +8,7 @@ env:
   - WORKSPACE=TakeASelfie.xcworkspace
   - FRAMEWORK_SCHEME="TakeASelfie"
   - SDK=iphonesimulator12.0
-  - RUN_TESTS="NO"
+  - RUN_TESTS="YES"
   - POD_LINT="NO"
   matrix:
     - DESTINATION="OS=12.0,name=iPhone X"
