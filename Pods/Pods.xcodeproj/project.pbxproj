@@ -3,371 +3,328 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0633B29C78BEB45E3BDBA7F0B0A7060A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3318869A2FFE4CF9E34DCA4928833850 /* Pods-TakeASelfie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B92175D696110732D450BD3F229FA3 /* Pods-TakeASelfie-dummy.m */; };
-		4211D330C84B18B93CCF1018C5CE700C /* Pods-TakeASelfieTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FC1B37FC23CCFBB99E21D505E3FD16 /* Pods-TakeASelfieTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F86C740C09FFE987CF285020AE62EFC /* SelfieHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB8FABEF63C147BFEB55BD1B913113 /* SelfieHelper.swift */; };
-		67B037234535D716A4FF2869B254CA7C /* TakeASelfie.h in Headers */ = {isa = PBXBuildFile; fileRef = 306E969C6E375A1585BB1E3A7E7B9081 /* TakeASelfie.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70F11A3D9F52B64672A0E13054F42ED6 /* Pods-SampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD5AD4B0F430D9B62D28151F0D5D496 /* Pods-SampleApp-dummy.m */; };
-		7585E1C2F3DA09E45786B6D4CAFE4F87 /* Pods-TakeASelfie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06A2200540D1240A9DDC8310E742F130 /* Pods-TakeASelfie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76BB89CB40C5055CFF639F5EBA4592B6 /* CIFaceFeature+UIImageOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 304E948146DBC10A8DA6CF385FA89844 /* CIFaceFeature+UIImageOrientation.m */; };
-		88963A393863A171A2744676F06D8512 /* SelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7B81554F302890544BD1B375F75AF8 /* SelfieViewController.swift */; };
-		A0880E20CB108EC5C14944570EEC0653 /* TakeASelfie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BDCAB87E26CC007B26DBF5F2B11D2C /* TakeASelfie-dummy.m */; };
-		A429A242F14CF667A6D97EC1B262CF50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		B2D89FD9BAF366815D523F1060A93C62 /* Pods-SampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19DB6B2CEF71FAC478A673C38872CB75 /* Pods-SampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B685FA56DBD383562E5F6AEB54EC9807 /* CIFaceFeature+UIImageOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D108FA461E22A0E72A5505BD1D6BA07 /* CIFaceFeature+UIImageOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C610C8BFFF83DC43D74284E93DCA5336 /* OvalOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992D66AEBFDA9D90CD4273A813FE1893 /* OvalOverlayView.swift */; };
-		D333850BE5F9F308A4F77E07DF87B7F2 /* Pods-TakeASelfieTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E110D1A5DBF4E0722F497328B5B9C3E1 /* Pods-TakeASelfieTests-dummy.m */; };
-		E86EC5A3C3B0C3A279A61D8C3B079D3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		EAAF31DF11433391439A1F6609AD65E7 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3FA28EEEEDFABD532198B2E2DF218D /* UIViewController+Alert.swift */; };
-		EF5C79B289610336C0200CECDD894B0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		FD1B3EA6A7003CA7C4806B7A35A85979 /* TakeASelfie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9838E7743705C346EDF34F021BD1710 /* TakeASelfie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D55AE9A05373C1CEA1377DA0234363C /* SelfieHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2350EEC090E764C92EC4BAE4E8AF1 /* SelfieHelper.swift */; };
+		222FF93D19E76EF4FDC357525D1F3F61 /* OvalOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4383370ED30B829C7FB0292AC5C5C6 /* OvalOverlayView.swift */; };
+		249D8F4C31730EC880D62158EACA3C66 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF2347630EC801EAC5BD42AFDFDD550 /* UIViewController+Alert.swift */; };
+		2D2778820977CBCC89CD580DAD19FD6F /* TakeASelfie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC10F7F6100452599CE7E831D5B8F0A /* TakeASelfie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32784930B0F8D35EA327348436F2AD49 /* Pods-TakeASelfie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D9DEEB54D6E6B74805B47832547D6 /* Pods-TakeASelfie-dummy.m */; };
+		336C7A98502F3ECB586A00FC9A8B0C31 /* Pods-TakeASelfieTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 593262634646CC20266F5976CEA3E88A /* Pods-TakeASelfieTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42B169C50D62BC6BBEFE846512B94D0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		5054A542BCF36CF47714ED751CBD77A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		740D87799E2CB140BF0EC310D36170A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		76F956A93E299CD4D142A281AEB1669E /* CIFaceFeature+UIImageOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2730E41A1F75B748BF1B911B7B6664F /* CIFaceFeature+UIImageOrientation.m */; };
+		7D1D4F1CA2E3A8E5A35340285878FE50 /* Pods-TakeASelfie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 994E7076F9A51865D12FD6D07143EC1C /* Pods-TakeASelfie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F657F04E66E0201E45AA50AF140A36B /* Pods-TakeASelfieTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6BA2914AE42A3C8D7BB8C31090A98B /* Pods-TakeASelfieTests-dummy.m */; };
+		7FDC568EF9BC4D0865A43CD59552A66F /* Pods-SampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BAD4AC134DE3B019AD168E0FEDD8D5D /* Pods-SampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		969F0B2C4F46C19C2A681523E4E2DEE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B750EF28519917C139EAE7FF4606C4D5 /* CIFaceFeature+UIImageOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 53D1A188A15A91B3F58D1F980D0AAAF8 /* CIFaceFeature+UIImageOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E123B769758C89C08C6C81DDEC9EBA7E /* Pods-SampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C098D16DC50FFC1E808EB8C06B1996C5 /* Pods-SampleApp-dummy.m */; };
+		E9317E98DC56E487B3469D532E3B3ABC /* SelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A292B4F1CB15CD932B0052C305E65 /* SelfieViewController.swift */; };
+		FBE399A07EA7E457BF40550B83E2D63E /* TakeASelfie.h in Headers */ = {isa = PBXBuildFile; fileRef = FC22F73C3E7DE8AD44DC81B4A206894C /* TakeASelfie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE8E6D87177057CCF1FF21A73DA0ED0F /* TakeASelfie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C231A4F837E511174419FA9EFD81B9E /* TakeASelfie-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		341E58E5D8BF9FBADC23A1274570F4EB /* PBXContainerItemProxy */ = {
+		F74C3D58B2E26E7CC9CDEE4DFF9C9E4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D5F059260CB1E431C62E14942AE8283F;
-			remoteInfo = "Pods-TakeASelfie";
-		};
-		3CC4D8EF82A6A82B97064F819364934E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D072E867DE911706BB99A6D1F1E46E9F;
+			remoteGlobalIDString = 003284973618870FF060B1FE80432398;
 			remoteInfo = TakeASelfie;
+		};
+		FB8B6907BD08BE2CF629F7F8901BE28F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE23DA4BE2E3C16B260EFBD53A6BD74;
+			remoteInfo = "Pods-TakeASelfie";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0247F8844A8140A642C0167A4DCD24A9 /* TakeASelfie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TakeASelfie.modulemap; sourceTree = "<group>"; };
-		06A2200540D1240A9DDC8310E742F130 /* Pods-TakeASelfie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TakeASelfie-umbrella.h"; sourceTree = "<group>"; };
-		17F3AF8AE2A3AE6C462AFAF90DD6F586 /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18353DE5B97E06FA14517BB02EDB929F /* Pods_TakeASelfie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeASelfie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19291EA22DA44C98E7E2A603ABA2D23A /* Pods-SampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SampleApp.modulemap"; sourceTree = "<group>"; };
-		19DB6B2CEF71FAC478A673C38872CB75 /* Pods-SampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleApp-umbrella.h"; sourceTree = "<group>"; };
-		1DD5AD4B0F430D9B62D28151F0D5D496 /* Pods-SampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleApp-dummy.m"; sourceTree = "<group>"; };
-		1E308CC26A03923A9582565ED75A1FF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		225FD063BAA244D15FF982686E5BC8A5 /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
-		256A49223A2B7C619EDBFE7EEB6AEBCE /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
-		27B92175D696110732D450BD3F229FA3 /* Pods-TakeASelfie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TakeASelfie-dummy.m"; sourceTree = "<group>"; };
-		2F4F300D82AF2FE6561D96EC2E26BE21 /* TakeASelfie.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TakeASelfie.xcconfig; sourceTree = "<group>"; };
-		304E948146DBC10A8DA6CF385FA89844 /* CIFaceFeature+UIImageOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CIFaceFeature+UIImageOrientation.m"; path = "TakeASelfie/CIFaceFeature+UIImageOrientation.m"; sourceTree = "<group>"; };
-		306E969C6E375A1585BB1E3A7E7B9081 /* TakeASelfie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TakeASelfie.h; path = TakeASelfie/TakeASelfie.h; sourceTree = "<group>"; };
-		34EB8FABEF63C147BFEB55BD1B913113 /* SelfieHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelfieHelper.swift; path = TakeASelfie/SelfieHelper.swift; sourceTree = "<group>"; };
-		3504FD2006E4E6D52560431CFE61EC8F /* Pods-SampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		3D716067304FCEE36DE1C9E60FF37105 /* Pods-TakeASelfieTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TakeASelfieTests.modulemap"; sourceTree = "<group>"; };
-		40BDCAB87E26CC007B26DBF5F2B11D2C /* TakeASelfie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TakeASelfie-dummy.m"; sourceTree = "<group>"; };
-		42F3D817E2347F58D1CC7228ED53B101 /* Pods-TakeASelfieTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TakeASelfieTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4D108FA461E22A0E72A5505BD1D6BA07 /* CIFaceFeature+UIImageOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CIFaceFeature+UIImageOrientation.h"; path = "TakeASelfie/CIFaceFeature+UIImageOrientation.h"; sourceTree = "<group>"; };
-		4F3FA28EEEEDFABD532198B2E2DF218D /* UIViewController+Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Alert.swift"; path = "TakeASelfie/UIViewController+Alert.swift"; sourceTree = "<group>"; };
-		51507031D664392DF591D6D7A5FA70F5 /* Pods-TakeASelfie-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TakeASelfie-acknowledgements.plist"; sourceTree = "<group>"; };
-		52FC1B37FC23CCFBB99E21D505E3FD16 /* Pods-TakeASelfieTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TakeASelfieTests-umbrella.h"; sourceTree = "<group>"; };
-		57A63646CE348E0E5F1186F383D1C7A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57F000C85C9701D62FBAA978C6473E0B /* Pods_TakeASelfieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeASelfieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5A236DC57A3AF5A1117DCCAFF52DACCF /* Pods-TakeASelfie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TakeASelfie.modulemap"; sourceTree = "<group>"; };
-		5A8F3E94058DD5AC87A2AD83FC214FC2 /* Pods-TakeASelfieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakeASelfieTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5BA2BC0209B4F8DB91B49C0573C92231 /* Pods-SampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApp-resources.sh"; sourceTree = "<group>"; };
-		6E7B81554F302890544BD1B375F75AF8 /* SelfieViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelfieViewController.swift; path = TakeASelfie/SelfieViewController.swift; sourceTree = "<group>"; };
-		7C072EE026BC41ACA59C7F16D2FC17EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		897859E9CFCE0C3CFB3E6D6EABC1DDD5 /* Pods-TakeASelfieTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TakeASelfieTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8C12F98B81F142FCF373F87CA20826DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		992D66AEBFDA9D90CD4273A813FE1893 /* OvalOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OvalOverlayView.swift; path = TakeASelfie/OvalOverlayView.swift; sourceTree = "<group>"; };
-		99D2BBCD660436782955A88E39943D93 /* Pods-TakeASelfie-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TakeASelfie-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AAA589887C93FF8E1140C4128C89A0A7 /* Pods-TakeASelfieTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TakeASelfieTests-resources.sh"; sourceTree = "<group>"; };
-		AF4002CBA2ADBB09174F3772475630EC /* Pods-TakeASelfieTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TakeASelfieTests-frameworks.sh"; sourceTree = "<group>"; };
-		AFAD7C28662D4BFF85F7FE685597A38C /* Pods-SampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApp-frameworks.sh"; sourceTree = "<group>"; };
-		AFF843BA7ECC156F811D0CB4F1EF8F77 /* TakeASelfie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TakeASelfie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B341F6E287EDEAC913B787356CD765BA /* Pods-SampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B416CF3C7D59AA85A66CCB25EA04B653 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B46BDF37A7B2CBF1EE0446FB7CEC277E /* TakeASelfie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TakeASelfie-prefix.pch"; sourceTree = "<group>"; };
-		BFDD94F7D93822080B3DBA8BB94F0262 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D055CB2E6A95E5AEF367A8F28BF7790E /* Pods-TakeASelfie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakeASelfie.release.xcconfig"; sourceTree = "<group>"; };
-		D584E221B23D5C6E484DDB0C00B65EFD /* Pods-TakeASelfieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakeASelfieTests.release.xcconfig"; sourceTree = "<group>"; };
-		D6FBD40BBD6362B4F79FE6852A266664 /* Pods-TakeASelfie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakeASelfie.debug.xcconfig"; sourceTree = "<group>"; };
-		D72DC41B0303515FDC2F74DD34D540ED /* TakeASelfie.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TakeASelfie.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DCEC50B05775CA45A3CBF9FDC7B2DCEC /* Pods-TakeASelfie-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TakeASelfie-resources.sh"; sourceTree = "<group>"; };
-		E110D1A5DBF4E0722F497328B5B9C3E1 /* Pods-TakeASelfieTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TakeASelfieTests-dummy.m"; sourceTree = "<group>"; };
-		E9838E7743705C346EDF34F021BD1710 /* TakeASelfie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TakeASelfie-umbrella.h"; sourceTree = "<group>"; };
+		02A132C37D9FDA14DC31DE25CE273DFA /* Pods-SampleApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleApp-Info.plist"; sourceTree = "<group>"; };
+		043EA58CE38C2046648ACF18E6E41715 /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleApp.framework; path = "Pods-SampleApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		068D9DEEB54D6E6B74805B47832547D6 /* Pods-TakeASelfie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TakeASelfie-dummy.m"; sourceTree = "<group>"; };
+		10CD1A8425FCCF2EBBDF3B0493B18D6F /* Pods-TakeASelfieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakeASelfieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		12852B6B794127C6DBAAB00B5B862E46 /* Pods-TakeASelfie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakeASelfie.release.xcconfig"; sourceTree = "<group>"; };
+		136C54E887F3783D704170A3778583AD /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		18848FB710886110FC25180B91B83633 /* TakeASelfie-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TakeASelfie-Info.plist"; sourceTree = "<group>"; };
+		1C231A4F837E511174419FA9EFD81B9E /* TakeASelfie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TakeASelfie-dummy.m"; sourceTree = "<group>"; };
+		2047986DC591937297BB66B684AA3A21 /* TakeASelfie.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TakeASelfie.xcconfig; sourceTree = "<group>"; };
+		271075CF67F460FC4ADCDF95397D939B /* Pods-TakeASelfie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TakeASelfie.modulemap"; sourceTree = "<group>"; };
+		29C0C654F70544F94876A905EEB62279 /* Pods-TakeASelfie-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TakeASelfie-Info.plist"; sourceTree = "<group>"; };
+		2BAD4AC134DE3B019AD168E0FEDD8D5D /* Pods-SampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleApp-umbrella.h"; sourceTree = "<group>"; };
+		3235607B3401378EAA5B54A55117FC8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		44F6D6BA3F74BA9271DE26869999547F /* Pods-TakeASelfieTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TakeASelfieTests-Info.plist"; sourceTree = "<group>"; };
+		4593609F930B6F215FF50D7A204DB603 /* Pods_TakeASelfie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TakeASelfie.framework; path = "Pods-TakeASelfie.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0C06B6D479BA49E580670273FD89C0 /* Pods-TakeASelfieTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TakeASelfieTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D5688067B6F605EC6ED9054DF0E88B1 /* Pods-TakeASelfieTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TakeASelfieTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		53D1A188A15A91B3F58D1F980D0AAAF8 /* CIFaceFeature+UIImageOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CIFaceFeature+UIImageOrientation.h"; path = "TakeASelfie/CIFaceFeature+UIImageOrientation.h"; sourceTree = "<group>"; };
+		547502D90F7A3467C32596B19B199DD1 /* Pods-SampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5617892B1AA58FC7DCDE7F17FB005A05 /* TakeASelfie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TakeASelfie-prefix.pch"; sourceTree = "<group>"; };
+		5748AEA14C414AAB243A17100D2487A1 /* Pods-TakeASelfie-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TakeASelfie-acknowledgements.plist"; sourceTree = "<group>"; };
+		593262634646CC20266F5976CEA3E88A /* Pods-TakeASelfieTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TakeASelfieTests-umbrella.h"; sourceTree = "<group>"; };
+		5F12D4008CCF08C5E6E39F8831896A12 /* TakeASelfie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TakeASelfie.modulemap; sourceTree = "<group>"; };
+		7335167286E4E9AB4D0A2B46D3029BD2 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		7BC10F7F6100452599CE7E831D5B8F0A /* TakeASelfie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TakeASelfie-umbrella.h"; sourceTree = "<group>"; };
+		994E7076F9A51865D12FD6D07143EC1C /* Pods-TakeASelfie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TakeASelfie-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A191F6125A41038C2630C4E97DF22A26 /* Pods-SampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		A56A292B4F1CB15CD932B0052C305E65 /* SelfieViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelfieViewController.swift; path = TakeASelfie/SelfieViewController.swift; sourceTree = "<group>"; };
+		A8F5649D64C00846CCD5D8F2528CED90 /* Pods_TakeASelfieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TakeASelfieTests.framework; path = "Pods-TakeASelfieTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC56064C312800656B82A5E8DF19235D /* TakeASelfie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TakeASelfie.framework; path = TakeASelfie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B178B37C689FB2926E8F66547E4E13A8 /* Pods-TakeASelfieTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TakeASelfieTests.modulemap"; sourceTree = "<group>"; };
+		B2D5E51A95DF462F815AEA22B91EADDF /* Pods-TakeASelfie-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TakeASelfie-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD6BA2914AE42A3C8D7BB8C31090A98B /* Pods-TakeASelfieTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TakeASelfieTests-dummy.m"; sourceTree = "<group>"; };
+		C098D16DC50FFC1E808EB8C06B1996C5 /* Pods-SampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleApp-dummy.m"; sourceTree = "<group>"; };
+		C0F4DA424AE2FE8BC710C6C9CCDFF052 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C2C260CF143553506BF3810A2CDA571A /* Pods-SampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApp-frameworks.sh"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFF2347630EC801EAC5BD42AFDFDD550 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Alert.swift"; path = "TakeASelfie/UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		DBE2350EEC090E764C92EC4BAE4E8AF1 /* SelfieHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelfieHelper.swift; path = TakeASelfie/SelfieHelper.swift; sourceTree = "<group>"; };
+		DD59233AEBDC960A440441EFA7047C41 /* Pods-TakeASelfie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakeASelfie.debug.xcconfig"; sourceTree = "<group>"; };
+		DD8A7338DBA0804FE1EE30F88125E1CC /* Pods-SampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SampleApp.modulemap"; sourceTree = "<group>"; };
+		E2730E41A1F75B748BF1B911B7B6664F /* CIFaceFeature+UIImageOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CIFaceFeature+UIImageOrientation.m"; path = "TakeASelfie/CIFaceFeature+UIImageOrientation.m"; sourceTree = "<group>"; };
+		E87F794083DE84A0CCDD0EA80CF8B9FE /* TakeASelfie.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TakeASelfie.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EDF7CB8422DC727E37422F3DD75106D3 /* Pods-TakeASelfieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakeASelfieTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC22F73C3E7DE8AD44DC81B4A206894C /* TakeASelfie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TakeASelfie.h; path = TakeASelfie/TakeASelfie.h; sourceTree = "<group>"; };
+		FE4383370ED30B829C7FB0292AC5C5C6 /* OvalOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OvalOverlayView.swift; path = TakeASelfie/OvalOverlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		088D9D819D3D9CD00E72B6F36317DE99 /* Frameworks */ = {
+		2B41A33959417F15D59024076010B061 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A429A242F14CF667A6D97EC1B262CF50 /* Foundation.framework in Frameworks */,
+				969F0B2C4F46C19C2A681523E4E2DEE7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0BBC00C44F53FC1A3F510D9683DC09D5 /* Frameworks */ = {
+		6B2F8C47F967BE93B636BB487CD2C421 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0633B29C78BEB45E3BDBA7F0B0A7060A /* Foundation.framework in Frameworks */,
+				5054A542BCF36CF47714ED751CBD77A5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48D0542BF3B2E1E42853B533C9F0FFEA /* Frameworks */ = {
+		C8611C24525EA724C14E813B2151A63C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E86EC5A3C3B0C3A279A61D8C3B079D3B /* Foundation.framework in Frameworks */,
+				42B169C50D62BC6BBEFE846512B94D0B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8326218299CBAAA0EB0FD4A7EC44B1E /* Frameworks */ = {
+		FB583EEC37996A95892334E6708A9EF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF5C79B289610336C0200CECDD894B0A /* Foundation.framework in Frameworks */,
+				740D87799E2CB140BF0EC310D36170A9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14CCA9E9E60155C7E51EA8B3C5AA0DEE /* Targets Support Files */ = {
+		46C7E25876CF5518783E93B736F2D061 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C891F305654545689E139279F0765B9E /* Pods-SampleApp */,
-				FA8634C006AEBDEE80CE3262278587C6 /* Pods-TakeASelfie */,
-				98C714586DD0F1CD4FA3C56F4D7B63E8 /* Pods-TakeASelfieTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6FD0C82F147C3C86873B9F07F12C7A08 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8C12F98B81F142FCF373F87CA20826DC /* LICENSE */,
-				1E308CC26A03923A9582565ED75A1FF0 /* README.md */,
-				D72DC41B0303515FDC2F74DD34D540ED /* TakeASelfie.podspec */,
+				3235607B3401378EAA5B54A55117FC8C /* LICENSE */,
+				C0F4DA424AE2FE8BC710C6C9CCDFF052 /* README.md */,
+				E87F794083DE84A0CCDD0EA80CF8B9FE /* TakeASelfie.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		62FF512A29BF000B197D0025835E2843 /* Pods-SampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BFCA6D53B55BEBA93135A800B9DE12A3 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9E0E201A7FEEDAAA8450C2125C89DE47 /* Products */,
-				14CCA9E9E60155C7E51EA8B3C5AA0DEE /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		98C714586DD0F1CD4FA3C56F4D7B63E8 /* Pods-TakeASelfieTests */ = {
-			isa = PBXGroup;
-			children = (
-				B416CF3C7D59AA85A66CCB25EA04B653 /* Info.plist */,
-				3D716067304FCEE36DE1C9E60FF37105 /* Pods-TakeASelfieTests.modulemap */,
-				897859E9CFCE0C3CFB3E6D6EABC1DDD5 /* Pods-TakeASelfieTests-acknowledgements.markdown */,
-				42F3D817E2347F58D1CC7228ED53B101 /* Pods-TakeASelfieTests-acknowledgements.plist */,
-				E110D1A5DBF4E0722F497328B5B9C3E1 /* Pods-TakeASelfieTests-dummy.m */,
-				AF4002CBA2ADBB09174F3772475630EC /* Pods-TakeASelfieTests-frameworks.sh */,
-				AAA589887C93FF8E1140C4128C89A0A7 /* Pods-TakeASelfieTests-resources.sh */,
-				52FC1B37FC23CCFBB99E21D505E3FD16 /* Pods-TakeASelfieTests-umbrella.h */,
-				5A8F3E94058DD5AC87A2AD83FC214FC2 /* Pods-TakeASelfieTests.debug.xcconfig */,
-				D584E221B23D5C6E484DDB0C00B65EFD /* Pods-TakeASelfieTests.release.xcconfig */,
-			);
-			name = "Pods-TakeASelfieTests";
-			path = "Target Support Files/Pods-TakeASelfieTests";
-			sourceTree = "<group>";
-		};
-		9E0E201A7FEEDAAA8450C2125C89DE47 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				17F3AF8AE2A3AE6C462AFAF90DD6F586 /* Pods_SampleApp.framework */,
-				18353DE5B97E06FA14517BB02EDB929F /* Pods_TakeASelfie.framework */,
-				57F000C85C9701D62FBAA978C6473E0B /* Pods_TakeASelfieTests.framework */,
-				AFF843BA7ECC156F811D0CB4F1EF8F77 /* TakeASelfie.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A73503A3B56BBEE712DC3A21FADEC87A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				57A63646CE348E0E5F1186F383D1C7A6 /* Info.plist */,
-				0247F8844A8140A642C0167A4DCD24A9 /* TakeASelfie.modulemap */,
-				2F4F300D82AF2FE6561D96EC2E26BE21 /* TakeASelfie.xcconfig */,
-				40BDCAB87E26CC007B26DBF5F2B11D2C /* TakeASelfie-dummy.m */,
-				B46BDF37A7B2CBF1EE0446FB7CEC277E /* TakeASelfie-prefix.pch */,
-				E9838E7743705C346EDF34F021BD1710 /* TakeASelfie-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/TakeASelfie";
-			sourceTree = "<group>";
-		};
-		AEB08750B47A4521D584ED115CE4C5BC /* TakeASelfie */ = {
-			isa = PBXGroup;
-			children = (
-				4D108FA461E22A0E72A5505BD1D6BA07 /* CIFaceFeature+UIImageOrientation.h */,
-				304E948146DBC10A8DA6CF385FA89844 /* CIFaceFeature+UIImageOrientation.m */,
-				992D66AEBFDA9D90CD4273A813FE1893 /* OvalOverlayView.swift */,
-				34EB8FABEF63C147BFEB55BD1B913113 /* SelfieHelper.swift */,
-				6E7B81554F302890544BD1B375F75AF8 /* SelfieViewController.swift */,
-				306E969C6E375A1585BB1E3A7E7B9081 /* TakeASelfie.h */,
-				4F3FA28EEEEDFABD532198B2E2DF218D /* UIViewController+Alert.swift */,
-				6FD0C82F147C3C86873B9F07F12C7A08 /* Pod */,
-				A73503A3B56BBEE712DC3A21FADEC87A /* Support Files */,
-			);
-			name = TakeASelfie;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BFCA6D53B55BEBA93135A800B9DE12A3 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AEB08750B47A4521D584ED115CE4C5BC /* TakeASelfie */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C891F305654545689E139279F0765B9E /* Pods-SampleApp */ = {
-			isa = PBXGroup;
-			children = (
-				7C072EE026BC41ACA59C7F16D2FC17EA /* Info.plist */,
-				19291EA22DA44C98E7E2A603ABA2D23A /* Pods-SampleApp.modulemap */,
-				B341F6E287EDEAC913B787356CD765BA /* Pods-SampleApp-acknowledgements.markdown */,
-				3504FD2006E4E6D52560431CFE61EC8F /* Pods-SampleApp-acknowledgements.plist */,
-				1DD5AD4B0F430D9B62D28151F0D5D496 /* Pods-SampleApp-dummy.m */,
-				AFAD7C28662D4BFF85F7FE685597A38C /* Pods-SampleApp-frameworks.sh */,
-				5BA2BC0209B4F8DB91B49C0573C92231 /* Pods-SampleApp-resources.sh */,
-				19DB6B2CEF71FAC478A673C38872CB75 /* Pods-SampleApp-umbrella.h */,
-				225FD063BAA244D15FF982686E5BC8A5 /* Pods-SampleApp.debug.xcconfig */,
-				256A49223A2B7C619EDBFE7EEB6AEBCE /* Pods-SampleApp.release.xcconfig */,
+				DD8A7338DBA0804FE1EE30F88125E1CC /* Pods-SampleApp.modulemap */,
+				547502D90F7A3467C32596B19B199DD1 /* Pods-SampleApp-acknowledgements.markdown */,
+				A191F6125A41038C2630C4E97DF22A26 /* Pods-SampleApp-acknowledgements.plist */,
+				C098D16DC50FFC1E808EB8C06B1996C5 /* Pods-SampleApp-dummy.m */,
+				C2C260CF143553506BF3810A2CDA571A /* Pods-SampleApp-frameworks.sh */,
+				02A132C37D9FDA14DC31DE25CE273DFA /* Pods-SampleApp-Info.plist */,
+				2BAD4AC134DE3B019AD168E0FEDD8D5D /* Pods-SampleApp-umbrella.h */,
+				136C54E887F3783D704170A3778583AD /* Pods-SampleApp.debug.xcconfig */,
+				7335167286E4E9AB4D0A2B46D3029BD2 /* Pods-SampleApp.release.xcconfig */,
 			);
 			name = "Pods-SampleApp";
 			path = "Target Support Files/Pods-SampleApp";
 			sourceTree = "<group>";
 		};
-		FA8634C006AEBDEE80CE3262278587C6 /* Pods-TakeASelfie */ = {
+		688144CBFD9940914A287DE694EAC754 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BFDD94F7D93822080B3DBA8BB94F0262 /* Info.plist */,
-				5A236DC57A3AF5A1117DCCAFF52DACCF /* Pods-TakeASelfie.modulemap */,
-				99D2BBCD660436782955A88E39943D93 /* Pods-TakeASelfie-acknowledgements.markdown */,
-				51507031D664392DF591D6D7A5FA70F5 /* Pods-TakeASelfie-acknowledgements.plist */,
-				27B92175D696110732D450BD3F229FA3 /* Pods-TakeASelfie-dummy.m */,
-				DCEC50B05775CA45A3CBF9FDC7B2DCEC /* Pods-TakeASelfie-resources.sh */,
-				06A2200540D1240A9DDC8310E742F130 /* Pods-TakeASelfie-umbrella.h */,
-				D6FBD40BBD6362B4F79FE6852A266664 /* Pods-TakeASelfie.debug.xcconfig */,
-				D055CB2E6A95E5AEF367A8F28BF7790E /* Pods-TakeASelfie.release.xcconfig */,
+				5F12D4008CCF08C5E6E39F8831896A12 /* TakeASelfie.modulemap */,
+				2047986DC591937297BB66B684AA3A21 /* TakeASelfie.xcconfig */,
+				1C231A4F837E511174419FA9EFD81B9E /* TakeASelfie-dummy.m */,
+				18848FB710886110FC25180B91B83633 /* TakeASelfie-Info.plist */,
+				5617892B1AA58FC7DCDE7F17FB005A05 /* TakeASelfie-prefix.pch */,
+				7BC10F7F6100452599CE7E831D5B8F0A /* TakeASelfie-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/TakeASelfie";
+			sourceTree = "<group>";
+		};
+		7233F25B0301258B67338602F675BF78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043EA58CE38C2046648ACF18E6E41715 /* Pods_SampleApp.framework */,
+				4593609F930B6F215FF50D7A204DB603 /* Pods_TakeASelfie.framework */,
+				A8F5649D64C00846CCD5D8F2528CED90 /* Pods_TakeASelfieTests.framework */,
+				AC56064C312800656B82A5E8DF19235D /* TakeASelfie.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A47360D1C4FA806BB9301135938E9854 /* Pods-TakeASelfie */ = {
+			isa = PBXGroup;
+			children = (
+				271075CF67F460FC4ADCDF95397D939B /* Pods-TakeASelfie.modulemap */,
+				B2D5E51A95DF462F815AEA22B91EADDF /* Pods-TakeASelfie-acknowledgements.markdown */,
+				5748AEA14C414AAB243A17100D2487A1 /* Pods-TakeASelfie-acknowledgements.plist */,
+				068D9DEEB54D6E6B74805B47832547D6 /* Pods-TakeASelfie-dummy.m */,
+				29C0C654F70544F94876A905EEB62279 /* Pods-TakeASelfie-Info.plist */,
+				994E7076F9A51865D12FD6D07143EC1C /* Pods-TakeASelfie-umbrella.h */,
+				DD59233AEBDC960A440441EFA7047C41 /* Pods-TakeASelfie.debug.xcconfig */,
+				12852B6B794127C6DBAAB00B5B862E46 /* Pods-TakeASelfie.release.xcconfig */,
 			);
 			name = "Pods-TakeASelfie";
 			path = "Target Support Files/Pods-TakeASelfie";
 			sourceTree = "<group>";
 		};
+		B5C5FC93A0DF35588DFB086E0A74D918 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62FF512A29BF000B197D0025835E2843 /* Pods-SampleApp */,
+				A47360D1C4FA806BB9301135938E9854 /* Pods-TakeASelfie */,
+				BA078505B5C35A3A2461276A9EE5EB64 /* Pods-TakeASelfieTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA078505B5C35A3A2461276A9EE5EB64 /* Pods-TakeASelfieTests */ = {
+			isa = PBXGroup;
+			children = (
+				B178B37C689FB2926E8F66547E4E13A8 /* Pods-TakeASelfieTests.modulemap */,
+				4C0C06B6D479BA49E580670273FD89C0 /* Pods-TakeASelfieTests-acknowledgements.markdown */,
+				4D5688067B6F605EC6ED9054DF0E88B1 /* Pods-TakeASelfieTests-acknowledgements.plist */,
+				BD6BA2914AE42A3C8D7BB8C31090A98B /* Pods-TakeASelfieTests-dummy.m */,
+				44F6D6BA3F74BA9271DE26869999547F /* Pods-TakeASelfieTests-Info.plist */,
+				593262634646CC20266F5976CEA3E88A /* Pods-TakeASelfieTests-umbrella.h */,
+				10CD1A8425FCCF2EBBDF3B0493B18D6F /* Pods-TakeASelfieTests.debug.xcconfig */,
+				EDF7CB8422DC727E37422F3DD75106D3 /* Pods-TakeASelfieTests.release.xcconfig */,
+			);
+			name = "Pods-TakeASelfieTests";
+			path = "Target Support Files/Pods-TakeASelfieTests";
+			sourceTree = "<group>";
+		};
+		CC666C8C62B89C6898BB11BCE4B7406B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9A2831CEED52F98F55A387938D028F0 /* TakeASelfie */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CC666C8C62B89C6898BB11BCE4B7406B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7233F25B0301258B67338602F675BF78 /* Products */,
+				B5C5FC93A0DF35588DFB086E0A74D918 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9A2831CEED52F98F55A387938D028F0 /* TakeASelfie */ = {
+			isa = PBXGroup;
+			children = (
+				53D1A188A15A91B3F58D1F980D0AAAF8 /* CIFaceFeature+UIImageOrientation.h */,
+				E2730E41A1F75B748BF1B911B7B6664F /* CIFaceFeature+UIImageOrientation.m */,
+				FE4383370ED30B829C7FB0292AC5C5C6 /* OvalOverlayView.swift */,
+				DBE2350EEC090E764C92EC4BAE4E8AF1 /* SelfieHelper.swift */,
+				A56A292B4F1CB15CD932B0052C305E65 /* SelfieViewController.swift */,
+				FC22F73C3E7DE8AD44DC81B4A206894C /* TakeASelfie.h */,
+				CFF2347630EC801EAC5BD42AFDFDD550 /* UIViewController+Alert.swift */,
+				46C7E25876CF5518783E93B736F2D061 /* Pod */,
+				688144CBFD9940914A287DE694EAC754 /* Support Files */,
+			);
+			name = TakeASelfie;
+			path = ..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		749C2E3C81FC7DBCDEC23AEC0FC4A03F /* Headers */ = {
+		3BA07F035E423ADBFE2D1CCC850BA3AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2D89FD9BAF366815D523F1060A93C62 /* Pods-SampleApp-umbrella.h in Headers */,
+				336C7A98502F3ECB586A00FC9A8B0C31 /* Pods-TakeASelfieTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8202CE41A7C126FC2509D109C19B1F3A /* Headers */ = {
+		7093AEF021B0106623481701BCE8CF38 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4211D330C84B18B93CCF1018C5CE700C /* Pods-TakeASelfieTests-umbrella.h in Headers */,
+				B750EF28519917C139EAE7FF4606C4D5 /* CIFaceFeature+UIImageOrientation.h in Headers */,
+				2D2778820977CBCC89CD580DAD19FD6F /* TakeASelfie-umbrella.h in Headers */,
+				FBE399A07EA7E457BF40550B83E2D63E /* TakeASelfie.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88705F50CFE66B95D8CD7AF3BA09EC65 /* Headers */ = {
+		9EDFA078AA1567805E22C5744AD5BA4A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7585E1C2F3DA09E45786B6D4CAFE4F87 /* Pods-TakeASelfie-umbrella.h in Headers */,
+				7D1D4F1CA2E3A8E5A35340285878FE50 /* Pods-TakeASelfie-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DE95698E0B12B74C0B6CB470DB013DD /* Headers */ = {
+		FEB8FFB55BE4A9D80677D2DB0024C9B6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B685FA56DBD383562E5F6AEB54EC9807 /* CIFaceFeature+UIImageOrientation.h in Headers */,
-				FD1B3EA6A7003CA7C4806B7A35A85979 /* TakeASelfie-umbrella.h in Headers */,
-				67B037234535D716A4FF2869B254CA7C /* TakeASelfie.h in Headers */,
+				7FDC568EF9BC4D0865A43CD59552A66F /* Pods-SampleApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9B8D180CC320301AC20722BC727C208C /* Pods-SampleApp */ = {
+		003284973618870FF060B1FE80432398 /* TakeASelfie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D695CB1D4A5FD59A8472C32D63E831DB /* Build configuration list for PBXNativeTarget "Pods-SampleApp" */;
+			buildConfigurationList = 20A67DB92BBD4F47176DE06E3CA9A291 /* Build configuration list for PBXNativeTarget "TakeASelfie" */;
 			buildPhases = (
-				F008E8E0EDE59092B020519C616E0879 /* Sources */,
-				0BBC00C44F53FC1A3F510D9683DC09D5 /* Frameworks */,
-				749C2E3C81FC7DBCDEC23AEC0FC4A03F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				044DAF4552228F4378B882677A37ED33 /* PBXTargetDependency */,
-			);
-			name = "Pods-SampleApp";
-			productName = "Pods-SampleApp";
-			productReference = 17F3AF8AE2A3AE6C462AFAF90DD6F586 /* Pods_SampleApp.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C2DB43D97221A2EE1372979DB79FCD8C /* Pods-TakeASelfieTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B26EFFF8E8278ABF74AA808BA8B5E025 /* Build configuration list for PBXNativeTarget "Pods-TakeASelfieTests" */;
-			buildPhases = (
-				2F132D1931145FEA564EBC8BEA888E78 /* Sources */,
-				088D9D819D3D9CD00E72B6F36317DE99 /* Frameworks */,
-				8202CE41A7C126FC2509D109C19B1F3A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				67715502A92579A1C370AD2977DA05FB /* PBXTargetDependency */,
-			);
-			name = "Pods-TakeASelfieTests";
-			productName = "Pods-TakeASelfieTests";
-			productReference = 57F000C85C9701D62FBAA978C6473E0B /* Pods_TakeASelfieTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D072E867DE911706BB99A6D1F1E46E9F /* TakeASelfie */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D96319610D058D673FAFCB00884B38CB /* Build configuration list for PBXNativeTarget "TakeASelfie" */;
-			buildPhases = (
-				A6DE16534EC6D75C22E3ACC5C20F9017 /* Sources */,
-				48D0542BF3B2E1E42853B533C9F0FFEA /* Frameworks */,
-				8DE95698E0B12B74C0B6CB470DB013DD /* Headers */,
+				7093AEF021B0106623481701BCE8CF38 /* Headers */,
+				52A4F609ACEB0BF7A50112338887FE3D /* Sources */,
+				6B2F8C47F967BE93B636BB487CD2C421 /* Frameworks */,
+				075505F468FFB30BC4A1072B6DD43B58 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -375,16 +332,55 @@
 			);
 			name = TakeASelfie;
 			productName = TakeASelfie;
-			productReference = AFF843BA7ECC156F811D0CB4F1EF8F77 /* TakeASelfie.framework */;
+			productReference = AC56064C312800656B82A5E8DF19235D /* TakeASelfie.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D5F059260CB1E431C62E14942AE8283F /* Pods-TakeASelfie */ = {
+		03A02FA9A9D3E29CB8B73643CA267167 /* Pods-SampleApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B60B92D7753BFBBAFD4D30C4F35052FE /* Build configuration list for PBXNativeTarget "Pods-TakeASelfie" */;
+			buildConfigurationList = 2E9EFE0066F1FC23B289829B19CE0CBA /* Build configuration list for PBXNativeTarget "Pods-SampleApp" */;
 			buildPhases = (
-				EE07CD42EC7D7ADE081C92B6CE90C792 /* Sources */,
-				C8326218299CBAAA0EB0FD4A7EC44B1E /* Frameworks */,
-				88705F50CFE66B95D8CD7AF3BA09EC65 /* Headers */,
+				FEB8FFB55BE4A9D80677D2DB0024C9B6 /* Headers */,
+				86E2038C4BC31C37D5F10693DE47620E /* Sources */,
+				2B41A33959417F15D59024076010B061 /* Frameworks */,
+				33FC0692B52CC8CFF42C12E263134888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99AB1199D9BFCBDFC7B830B79E75F98 /* PBXTargetDependency */,
+			);
+			name = "Pods-SampleApp";
+			productName = "Pods-SampleApp";
+			productReference = 043EA58CE38C2046648ACF18E6E41715 /* Pods_SampleApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		324DDD04281B476877D51E8FDA0544B3 /* Pods-TakeASelfieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5C5F8BF621701A420CC2EF98C5F436 /* Build configuration list for PBXNativeTarget "Pods-TakeASelfieTests" */;
+			buildPhases = (
+				3BA07F035E423ADBFE2D1CCC850BA3AD /* Headers */,
+				04FE3D908BE2E58D1C4D03CA496F84A0 /* Sources */,
+				FB583EEC37996A95892334E6708A9EF1 /* Frameworks */,
+				C09A94D162A91D06B0E4F102CA996855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A49497BD66F2D0C40669B2F7C90785DA /* PBXTargetDependency */,
+			);
+			name = "Pods-TakeASelfieTests";
+			productName = "Pods-TakeASelfieTests";
+			productReference = A8F5649D64C00846CCD5D8F2528CED90 /* Pods_TakeASelfieTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEE23DA4BE2E3C16B260EFBD53A6BD74 /* Pods-TakeASelfie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E62B0D9575A93B0DE05422CE6146A2A /* Build configuration list for PBXNativeTarget "Pods-TakeASelfie" */;
+			buildPhases = (
+				9EDFA078AA1567805E22C5744AD5BA4A /* Headers */,
+				F819DB33A1EB21C2CFF743FAF0244CB8 /* Sources */,
+				C8611C24525EA724C14E813B2151A63C /* Frameworks */,
+				DD3E2CA2E6396DCFF9A96B6C01AA5D39 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -392,135 +388,129 @@
 			);
 			name = "Pods-TakeASelfie";
 			productName = "Pods-TakeASelfie";
-			productReference = 18353DE5B97E06FA14517BB02EDB929F /* Pods_TakeASelfie.framework */;
+			productReference = 4593609F930B6F215FF50D7A204DB603 /* Pods_TakeASelfie.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9E0E201A7FEEDAAA8450C2125C89DE47 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7233F25B0301258B67338602F675BF78 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B8D180CC320301AC20722BC727C208C /* Pods-SampleApp */,
-				D5F059260CB1E431C62E14942AE8283F /* Pods-TakeASelfie */,
-				C2DB43D97221A2EE1372979DB79FCD8C /* Pods-TakeASelfieTests */,
-				D072E867DE911706BB99A6D1F1E46E9F /* TakeASelfie */,
+				03A02FA9A9D3E29CB8B73643CA267167 /* Pods-SampleApp */,
+				CEE23DA4BE2E3C16B260EFBD53A6BD74 /* Pods-TakeASelfie */,
+				324DDD04281B476877D51E8FDA0544B3 /* Pods-TakeASelfieTests */,
+				003284973618870FF060B1FE80432398 /* TakeASelfie */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		075505F468FFB30BC4A1072B6DD43B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33FC0692B52CC8CFF42C12E263134888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09A94D162A91D06B0E4F102CA996855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3E2CA2E6396DCFF9A96B6C01AA5D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		2F132D1931145FEA564EBC8BEA888E78 /* Sources */ = {
+		04FE3D908BE2E58D1C4D03CA496F84A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D333850BE5F9F308A4F77E07DF87B7F2 /* Pods-TakeASelfieTests-dummy.m in Sources */,
+				7F657F04E66E0201E45AA50AF140A36B /* Pods-TakeASelfieTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6DE16534EC6D75C22E3ACC5C20F9017 /* Sources */ = {
+		52A4F609ACEB0BF7A50112338887FE3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76BB89CB40C5055CFF639F5EBA4592B6 /* CIFaceFeature+UIImageOrientation.m in Sources */,
-				C610C8BFFF83DC43D74284E93DCA5336 /* OvalOverlayView.swift in Sources */,
-				4F86C740C09FFE987CF285020AE62EFC /* SelfieHelper.swift in Sources */,
-				88963A393863A171A2744676F06D8512 /* SelfieViewController.swift in Sources */,
-				A0880E20CB108EC5C14944570EEC0653 /* TakeASelfie-dummy.m in Sources */,
-				EAAF31DF11433391439A1F6609AD65E7 /* UIViewController+Alert.swift in Sources */,
+				76F956A93E299CD4D142A281AEB1669E /* CIFaceFeature+UIImageOrientation.m in Sources */,
+				222FF93D19E76EF4FDC357525D1F3F61 /* OvalOverlayView.swift in Sources */,
+				1D55AE9A05373C1CEA1377DA0234363C /* SelfieHelper.swift in Sources */,
+				E9317E98DC56E487B3469D532E3B3ABC /* SelfieViewController.swift in Sources */,
+				FE8E6D87177057CCF1FF21A73DA0ED0F /* TakeASelfie-dummy.m in Sources */,
+				249D8F4C31730EC880D62158EACA3C66 /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE07CD42EC7D7ADE081C92B6CE90C792 /* Sources */ = {
+		86E2038C4BC31C37D5F10693DE47620E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3318869A2FFE4CF9E34DCA4928833850 /* Pods-TakeASelfie-dummy.m in Sources */,
+				E123B769758C89C08C6C81DDEC9EBA7E /* Pods-SampleApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F008E8E0EDE59092B020519C616E0879 /* Sources */ = {
+		F819DB33A1EB21C2CFF743FAF0244CB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70F11A3D9F52B64672A0E13054F42ED6 /* Pods-SampleApp-dummy.m in Sources */,
+				32784930B0F8D35EA327348436F2AD49 /* Pods-TakeASelfie-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		044DAF4552228F4378B882677A37ED33 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TakeASelfie;
-			target = D072E867DE911706BB99A6D1F1E46E9F /* TakeASelfie */;
-			targetProxy = 3CC4D8EF82A6A82B97064F819364934E /* PBXContainerItemProxy */;
-		};
-		67715502A92579A1C370AD2977DA05FB /* PBXTargetDependency */ = {
+		A49497BD66F2D0C40669B2F7C90785DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TakeASelfie";
-			target = D5F059260CB1E431C62E14942AE8283F /* Pods-TakeASelfie */;
-			targetProxy = 341E58E5D8BF9FBADC23A1274570F4EB /* PBXContainerItemProxy */;
+			target = CEE23DA4BE2E3C16B260EFBD53A6BD74 /* Pods-TakeASelfie */;
+			targetProxy = FB8B6907BD08BE2CF629F7F8901BE28F /* PBXContainerItemProxy */;
+		};
+		C99AB1199D9BFCBDFC7B830B79E75F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TakeASelfie;
+			target = 003284973618870FF060B1FE80432398 /* TakeASelfie */;
+			targetProxy = F74C3D58B2E26E7CC9CDEE4DFF9C9E4E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01D7F0365A247D87DDFC018768CAEE1E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D584E221B23D5C6E484DDB0C00B65EFD /* Pods-TakeASelfieTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TakeASelfieTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TakeASelfieTests/Pods-TakeASelfieTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -549,8 +539,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -569,18 +557,22 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		3CAB459C92DD01CB5B3F34341628173A /* Debug */ = {
+		59166725A07DCE60F54EADC2782B4BB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6FBD40BBD6362B4F79FE6852A266664 /* Pods-TakeASelfie.debug.xcconfig */;
+			baseConfigurationReference = 10CD1A8425FCCF2EBBDF3B0493B18D6F /* Pods-TakeASelfieTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -591,114 +583,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TakeASelfie/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TakeASelfieTests/Pods-TakeASelfieTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TakeASelfie/Pods-TakeASelfie.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		54B66A15B4F8E9623F225AA4F8F735AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F4F300D82AF2FE6561D96EC2E26BE21 /* TakeASelfie.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TakeASelfie/TakeASelfie-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TakeASelfie/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TakeASelfie/TakeASelfie.modulemap";
-				PRODUCT_MODULE_NAME = TakeASelfie;
-				PRODUCT_NAME = TakeASelfie;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7CFB2019EA2249F2DF0B96C593671D7B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 256A49223A2B7C619EDBFE7EEB6AEBCE /* Pods-SampleApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SampleApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SampleApp/Pods-SampleApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9398DABEA47D0D31F8D5019D6BBB275F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A8F3E94058DD5AC87A2AD83FC214FC2 /* Pods-TakeASelfieTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TakeASelfieTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TakeASelfieTests/Pods-TakeASelfieTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -714,11 +606,10 @@
 			};
 			name = Debug;
 		};
-		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
+		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -747,8 +638,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -769,19 +658,24 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		AAE194AD5364EA51D9807EE42E8E7252 /* Debug */ = {
+		6FDC628DC3B8A0F996DE619243156BE8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F4F300D82AF2FE6561D96EC2E26BE21 /* TakeASelfie.xcconfig */;
+			baseConfigurationReference = EDF7CB8422DC727E37422F3DD75106D3 /* Pods-TakeASelfieTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -792,30 +686,36 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TakeASelfie/TakeASelfie-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TakeASelfie/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TakeASelfieTests/Pods-TakeASelfieTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TakeASelfie/TakeASelfie.modulemap";
-				PRODUCT_MODULE_NAME = TakeASelfie;
-				PRODUCT_NAME = TakeASelfie;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TakeASelfieTests/Pods-TakeASelfieTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		ABC153C58F23874119DB1BFA434DC090 /* Debug */ = {
+		71A53B80DCB98A933A3003813A9D8216 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 225FD063BAA244D15FF982686E5BC8A5 /* Pods-SampleApp.debug.xcconfig */;
+			baseConfigurationReference = 136C54E887F3783D704170A3778583AD /* Pods-SampleApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -826,10 +726,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SampleApp/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SampleApp/Pods-SampleApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SampleApp/Pods-SampleApp.modulemap";
 				OTHER_LDFLAGS = "";
@@ -839,19 +743,18 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		B14C2FAD42784CD067A41EB959257E70 /* Release */ = {
+		7D76B5F980E67033F4D291EE4799FCA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D055CB2E6A95E5AEF367A8F28BF7790E /* Pods-TakeASelfie.release.xcconfig */;
+			baseConfigurationReference = 7335167286E4E9AB4D0A2B46D3029BD2 /* Pods-SampleApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -862,10 +765,93 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TakeASelfie/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SampleApp/Pods-SampleApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SampleApp/Pods-SampleApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A5A24A9C886C7E1A42D04BBC17ACC896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD59233AEBDC960A440441EFA7047C41 /* Pods-TakeASelfie.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TakeASelfie/Pods-TakeASelfie-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TakeASelfie/Pods-TakeASelfie.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD1650599278D0E37800E290ED0C5337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12852B6B794127C6DBAAB00B5B862E46 /* Pods-TakeASelfie.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TakeASelfie/Pods-TakeASelfie-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TakeASelfie/Pods-TakeASelfie.modulemap";
 				OTHER_LDFLAGS = "";
@@ -882,55 +868,130 @@
 			};
 			name = Release;
 		};
+		B36504A508F42AE5D4378756D97B5D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2047986DC591937297BB66B684AA3A21 /* TakeASelfie.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TakeASelfie/TakeASelfie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TakeASelfie/TakeASelfie-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TakeASelfie/TakeASelfie.modulemap";
+				PRODUCT_MODULE_NAME = TakeASelfie;
+				PRODUCT_NAME = TakeASelfie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA6111227C3D9FEC9A55CA2F7076E301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2047986DC591937297BB66B684AA3A21 /* TakeASelfie.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TakeASelfie/TakeASelfie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TakeASelfie/TakeASelfie-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TakeASelfie/TakeASelfie.modulemap";
+				PRODUCT_MODULE_NAME = TakeASelfie;
+				PRODUCT_NAME = TakeASelfie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		0E62B0D9575A93B0DE05422CE6146A2A /* Build configuration list for PBXNativeTarget "Pods-TakeASelfie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
-				08638A96A528B1EC32DE62F8A728389D /* Release */,
+				A5A24A9C886C7E1A42D04BBC17ACC896 /* Debug */,
+				AD1650599278D0E37800E290ED0C5337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B26EFFF8E8278ABF74AA808BA8B5E025 /* Build configuration list for PBXNativeTarget "Pods-TakeASelfieTests" */ = {
+		20A67DB92BBD4F47176DE06E3CA9A291 /* Build configuration list for PBXNativeTarget "TakeASelfie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9398DABEA47D0D31F8D5019D6BBB275F /* Debug */,
-				01D7F0365A247D87DDFC018768CAEE1E /* Release */,
+				B36504A508F42AE5D4378756D97B5D52 /* Debug */,
+				FA6111227C3D9FEC9A55CA2F7076E301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B60B92D7753BFBBAFD4D30C4F35052FE /* Build configuration list for PBXNativeTarget "Pods-TakeASelfie" */ = {
+		2E9EFE0066F1FC23B289829B19CE0CBA /* Build configuration list for PBXNativeTarget "Pods-SampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3CAB459C92DD01CB5B3F34341628173A /* Debug */,
-				B14C2FAD42784CD067A41EB959257E70 /* Release */,
+				71A53B80DCB98A933A3003813A9D8216 /* Debug */,
+				7D76B5F980E67033F4D291EE4799FCA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D695CB1D4A5FD59A8472C32D63E831DB /* Build configuration list for PBXNativeTarget "Pods-SampleApp" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABC153C58F23874119DB1BFA434DC090 /* Debug */,
-				7CFB2019EA2249F2DF0B96C593671D7B /* Release */,
+				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
+				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D96319610D058D673FAFCB00884B38CB /* Build configuration list for PBXNativeTarget "TakeASelfie" */ = {
+		BC5C5F8BF621701A420CC2EF98C5F436 /* Build configuration list for PBXNativeTarget "Pods-TakeASelfieTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAE194AD5364EA51D9807EE42E8E7252 /* Debug */,
-				54B66A15B4F8E9623F225AA4F8F735AD /* Release */,
+				59166725A07DCE60F54EADC2782B4BB3 /* Debug */,
+				6FDC628DC3B8A0F996DE619243156BE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
