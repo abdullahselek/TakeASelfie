@@ -117,6 +117,8 @@ open class SelfieViewController: UIViewController {
             DispatchQueue.main.async {
                 self.addCaptureDeviceInput()
             }
+        @unknown default:
+            fatalError()
         }
     }
 

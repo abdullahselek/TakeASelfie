@@ -34,9 +34,9 @@ internal protocol AlertControllerProtocol {
 
 internal extension AlertControllerProtocol where Self: UIViewController {
 
-    internal func showAlertController(title: String?,
-                                      message: String?,
-                                      actions: [UIAlertAction]) {
+    func showAlertController(title: String?,
+                             message: String?,
+                             actions: [UIAlertAction]) {
         let alertController = UIAlertController(title: title,
                                                 message: message,
                                                 preferredStyle: .alert)
