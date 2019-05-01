@@ -62,6 +62,16 @@ To integrate TakeASelfie into your Xcode project using Carthage, specify it in y
 github "abdullahselek/TakeASelfie" ~> 0.1.3
 ```
 
+## Swift Package Manager
+
+Modify your `Package.swift` file to include the following dependency:
+
+```
+.package(url: "https://github.com/abdullahselek/TakeASelfie.git", from: "0.1.3")
+```
+
+Run `swift package resolve`
+
 ## Usage
 
 First import library by
