@@ -9,8 +9,10 @@ workspace 'TakeASelfie.xcworkspace'
 project 'TakeASelfie.xcodeproj'
 
 target 'TakeASelfie' do
+	pod 'SwiftLint'
+
   	target 'TakeASelfieTests' do
-    	 inherit! :search_paths
+		inherit! :search_paths
     end
 end
 

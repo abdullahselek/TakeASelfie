@@ -1,16 +1,23 @@
 PODS:
+  - SwiftLint (0.32.0)
   - TakeASelfie (0.1.3)
 
 DEPENDENCIES:
+  - SwiftLint
   - TakeASelfie (from `.`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftLint
 
 EXTERNAL SOURCES:
   TakeASelfie:
     :path: "."
 
 SPEC CHECKSUMS:
-  TakeASelfie: 2f93b14e1a0ba689378a26288285c20aa915df82
+  SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
+  TakeASelfie: ac2d919c1f2022f39d7a1e6841e81f3aad2fffb9
 
-PODFILE CHECKSUM: 22880422297f195ea51ae75617a580fc1123296d
+PODFILE CHECKSUM: 05cf83982ed453be36bbcd69a0cf01e41fff51e5
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.6.1
