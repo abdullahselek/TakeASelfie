@@ -20,6 +20,9 @@
 		A4F2D01E21629ABF0029B1A4 /* SelfieHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2D01D21629ABF0029B1A4 /* SelfieHelperTests.swift */; };
 		A4F5566321614B6A0009496F /* SelfieViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F5566221614B6A0009496F /* SelfieViewControllerTests.swift */; };
 		A4F5566521614E9F0009496F /* UIViewController+AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F5566421614E9F0009496F /* UIViewController+AlertTests.swift */; };
+		A4FBFC3F23646CB300E7D7BE /* TakeASelfie.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A4FBFC3B23646CB300E7D7BE /* TakeASelfie.podspec */; };
+		A4FBFC4023646CB300E7D7BE /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBFC3C23646CB300E7D7BE /* Package.swift */; };
+		A4FBFC4123646CB300E7D7BE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A4FBFC3D23646CB300E7D7BE /* README.md */; };
 		D800B348B68F8A20C0D68BEA /* Pods_TakeASelfie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C622350B9476F81F3A917D11 /* Pods_TakeASelfie.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +55,11 @@
 		A4F2D01D21629ABF0029B1A4 /* SelfieHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieHelperTests.swift; sourceTree = "<group>"; };
 		A4F5566221614B6A0009496F /* SelfieViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieViewControllerTests.swift; sourceTree = "<group>"; };
 		A4F5566421614E9F0009496F /* UIViewController+AlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AlertTests.swift"; sourceTree = "<group>"; };
+		A4FBFC3B23646CB300E7D7BE /* TakeASelfie.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TakeASelfie.podspec; sourceTree = "<group>"; };
+		A4FBFC3C23646CB300E7D7BE /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		A4FBFC3D23646CB300E7D7BE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A4FBFC4223646CF000E7D7BE /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
+		A4FBFC4323646CF000E7D7BE /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		A8681E4B7D422472DFD58C91 /* Pods-TakeASelfie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeASelfie.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakeASelfie/Pods-TakeASelfie.release.xcconfig"; sourceTree = "<group>"; };
 		AF693BE5B26DC703785DC8BB /* Pods_TakeASelfieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeASelfieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C622350B9476F81F3A917D11 /* Pods_TakeASelfie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeASelfie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +109,11 @@
 		A4B0084C2114CE96004EBBE4 = {
 			isa = PBXGroup;
 			children = (
+				A4FBFC4323646CF000E7D7BE /* .swiftlint.yml */,
+				A4FBFC4223646CF000E7D7BE /* .travis.yml */,
+				A4FBFC3C23646CB300E7D7BE /* Package.swift */,
+				A4FBFC3D23646CB300E7D7BE /* README.md */,
+				A4FBFC3B23646CB300E7D7BE /* TakeASelfie.podspec */,
 				A4B008582114CE96004EBBE4 /* TakeASelfie */,
 				A4B008632114CE96004EBBE4 /* TakeASelfieTests */,
 				A4B008572114CE96004EBBE4 /* Products */,
@@ -243,6 +256,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FBFC4123646CB300E7D7BE /* README.md in Resources */,
+				A4FBFC3F23646CB300E7D7BE /* TakeASelfie.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FBFC4023646CB300E7D7BE /* Package.swift in Sources */,
 				A40AA5822115F2230079E813 /* CIFaceFeature+UIImageOrientation.m in Sources */,
 				A4B008722114E342004EBBE4 /* SelfieViewController.swift in Sources */,
 				A4B8F44E2115BC2500FE57C4 /* OvalOverlayView.swift in Sources */,
