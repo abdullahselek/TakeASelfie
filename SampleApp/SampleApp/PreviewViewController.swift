@@ -42,6 +42,8 @@ class PreviewViewController: UIViewController {
             }
         case .restricted:
             completionBlock(false)
+        @unknown default:
+            break
         }
     }
 

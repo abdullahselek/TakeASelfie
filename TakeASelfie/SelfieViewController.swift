@@ -57,6 +57,10 @@ open class SelfieViewController: UIViewController {
         setupCapture(withAuthorizationStatus: authorizationStatus)
     }
 
+    override open var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .all
+    }
+
     fileprivate func addCaptureDeviceInput() {
         let deviceDiscoverySession = AVCaptureDevice.DiscoverySession(deviceTypes: [.builtInWideAngleCamera,
                                                                                     .builtInTelephotoCamera],
